@@ -3,6 +3,41 @@
 
 <head>
 
+<style>
+    .story {
+    border: solid 2px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color:lightcyan;
+}
+
+label {
+    font-size: 1.05em;
+}
+
+input {
+    border: solid 2px;
+    padding: 6px;
+    border-radius: 15px;
+    background-color:lightcyan;
+}
+
+#whatHaveYouDone {
+    border: solid 2px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color:lightcyan;
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+    width: 80%;
+}
+
+body {
+    background-color:lightsalmon;
+}
+</style>
+
     <title>Story Time</title>
 
 </head>
@@ -10,10 +45,53 @@
 <body>
 
     <h1>
-        Camp beach trip
+        beach night trip
     </h1>
 
-    
+    <div class="story">
+        <label>
+            Chris and Briten wanted to go to the Beach at night. However there were engineer workers. Chris and Briten walked up beside the engineer workers, slowly disipering into the bushes. Once in the darknes they started to run, Briten ran dirictly into a Tree. When they got to the road they saw a Green truck speeding tawords them. To avoid the Green truck Chris and Briten hid in the drive way to the Beach. When the Green truck turned into the drive way to the Beach at max speed Chris and Briten dove into the bushes with a loud crunch. The Green truck whent to a full stop rolled down his window and asked, "People or Bear?" Chris replyd "People", and the truck dive said "Oh Okay", and drove away. Chris and Briten filany made it to the Beach and had a great time.
+        </label>      
+    </div>
+        
+    <div id="whatHaveYouDone">
+        <br>
+        <span class="story">
+            <label>
+                Name 1: {firstName}
+            </label>
+        </span>
+        <span class="story">
+            <label>
+                Name 1: {secondName}
+            </label>
+        </span>
+        <span class="story">
+            <label>
+                Name 1: {locationName}
+            </label>
+        </span>
+        <br>
+        <br>
+        <br>
+        <span class="story">
+            <label>
+                Name 1: {data['job']}
+            </label>
+        </span>
+        <span class="story">
+            <label>
+                Name 1: {data['colour']}
+            </label>
+        </span>
+        <span class="story">
+            <label>
+                Name 1: {data['animal']}
+            </label>
+        </span>
+        <br>
+        <br>
+    </div>
 
 </body>
 

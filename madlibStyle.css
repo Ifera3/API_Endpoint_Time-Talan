@@ -1,0 +1,32 @@
+.story {
+    border: solid 2px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color:lightcyan;
+}
+
+label {
+    font-size: 1.05em;
+}
+
+input {
+    border: solid 2px;
+    padding: 6px;
+    border-radius: 15px;
+    background-color:lightcyan;
+}
+
+#whatHaveYouDone {
+    border: solid 2px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color:lightcyan;
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+    width: 80%;
+}
+
+body {
+    background-color:lightsalmon;
+}
