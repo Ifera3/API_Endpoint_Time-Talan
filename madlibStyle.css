@@ -1,3 +1,10 @@
+input {
+    border: solid 2px;
+    padding: 6px;
+    border-radius: 15px;
+    background-color:lightcyan;
+}
+
 .story {
     border: solid 2px;
     padding: 10px;
@@ -9,24 +16,22 @@ label {
     font-size: 1.05em;
 }
 
-input {
-    border: solid 2px;
-    padding: 6px;
-    border-radius: 15px;
-    background-color:lightcyan;
-}
-
-#whatHaveYouDone {
+.whatHaveYouDone {
     border: solid 2px;
     padding: 10px;
     border-radius: 20px;
-    background-color:lightcyan;
-    position: absolute;
-    bottom: 15px;
-    right: 25px;
-    width: 80%;
+    background-color:darkseagreen;
+    width: 95%;
+    margin: auto;
 }
 
 body {
     background-color:lightsalmon;
+}
+
+#enter {
+    display: block;
+    width: 100%;
+    margin: auto;
+    height: 75px;
 }
